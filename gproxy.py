@@ -15,7 +15,12 @@ allproxies = [
     "https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt",
     "https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt",
     "https://raw.githubusercontent.com/almroot/proxylist/master/list.txt",
+    "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt",
+    "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/http.txt",
+    "https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt",
+    "https://raw.githubusercontent.com/sunny9577/proxy-scraper/master/proxies.txt",
     "https://raw.githubusercontent.com/jetkai/proxy-list/main/online-proxies/txt/proxies-http.txt",
+    
 ]
 def proxies():
     for i in allproxies:
@@ -31,6 +36,8 @@ def proxies():
             response = requests.post(f"http://ip-api.com/json/{prox}").json()
             try:
                 res = response['isp']
+                country = response['country']
+                city = response['city']
                 #print(res)
                 if res == 'Google LLC':
                     #print(proxy)
@@ -47,7 +54,7 @@ def proxies():
                         delta = time.time() - start
                         filesize = os.path.getsize(filename)
                         ratio = filesize/(delta*1024)
-                        print('GProxy {} has download speed:{} KB/s'.format(proxy, math.floor(ratio)))
+                        print('GProxy {} - Download speed:{} KB/s - Country: {} - City: {}'.format(proxy, math.floor(ratio), country, city))
                         if os.path.isfile(filename):
                             os.remove(filename)
                         
@@ -61,6 +68,6 @@ def proxies():
                 pass
 
 
-proxies()
+proxies() 
 
 print("finished")
