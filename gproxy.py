@@ -12,6 +12,8 @@ filename = '1.zip'
 
 
 allproxies = [
+    "https://raw.githubusercontent.com/modbots/gproxy/main/P.txt",
+    "https://raw.githubusercontent.com/modbots/gproxy/main/http.txt",
     "https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt",
     "https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt",
     "https://raw.githubusercontent.com/almroot/proxylist/master/list.txt",
