@@ -10,7 +10,7 @@ socket.setdefaulttimeout(60)
 mirror = 'http://speedtest.tele2.net/1MB.zip'
 filename = '1.zip'
 
-
+#ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@ak1602.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7307#@OutlineVpnOfficial%20(netherlands)
 allproxies = [
     "https://raw.githubusercontent.com/modbots/gproxy/main/P.txt",
     "https://raw.githubusercontent.com/modbots/gproxy/main/http.txt",
