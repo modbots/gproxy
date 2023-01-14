@@ -15,8 +15,8 @@ filename = '1.zip'
 
 #ss://YWVzLTI1Ni1nY206Rm9PaUdsa0FBOXlQRUdQ@ak1602.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:7307#@OutlineVpnOfficial%20(netherlands)
 allproxies = [
-    "https://raw.githubusercontent.com/modbots/gproxy/main/P.txt",
-    "https://raw.githubusercontent.com/modbots/gproxy/main/http.txt",
+    
+   
     "https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt",
     "https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt",
     "https://raw.githubusercontent.com/almroot/proxylist/master/list.txt",
