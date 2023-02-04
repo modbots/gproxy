@@ -13,6 +13,9 @@ filename = '1.zip'
 
 allproxies = [
     "https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt",
+    "https://raw.githubusercontent.com/hookzof/socks5_list/master/proxy.txt",
+    "https://raw.githubusercontent.com/prxchk/proxy-list/main/http.txt",
+    "https://raw.githubusercontent.com/enseitankado/proxine/main/proxy/http.txt",
     "https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt",
     "https://raw.githubusercontent.com/almroot/proxylist/master/list.txt",
     "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/https.txt",
