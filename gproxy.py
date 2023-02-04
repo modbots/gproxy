@@ -36,8 +36,8 @@ def proxies():
         for proxy in proxis:
             prox,port = proxy.split(':')
             #print(f'checking {proxy}...')
-            response = requests.post(f"http://ip-api.com/json/{prox}").json()
             try:
+                response = requests.post(f"http://ip-api.com/json/{prox}").json()
                 res = response['isp']
                 country = response['country']
                 city = response['city']
