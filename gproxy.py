@@ -31,8 +31,6 @@ def proxies():
     for i in allproxies:
         #proxies(i)
         print("Join us on telegram @binbeginers")
-    #url = "https://raw.githubusercontent.com/UptimerBot/proxy-list/main/proxies/http.txt"#"https://www.proxyscan.io/download?type=http"
-        url =  i#"https://raw.githubusercontent.com/mertguvencli/http-proxy-list/main/proxy-list/data.txt"
         proxis = requests.get(url).text
         proxis = proxis.splitlines()
         for proxy in proxis:
